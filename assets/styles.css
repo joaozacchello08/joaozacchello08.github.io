@@ -1,0 +1,57 @@
+:root {
+    --bg: #f4f4f4;
+    --card-bg: #ffffff;
+    --text: #111;
+    --accent: #0077ff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.link {
+    display: block;
+    background: var(--card-bg);
+    color: var(--accent);
+    text-decoration: none;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+    font-weight: 500;
+}
+
+.link:hover {
+    background: var(--accent);
+    color: white;
+}
+
+footer {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
